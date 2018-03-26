@@ -7,26 +7,26 @@
     tools:context="com.example.au.myapplication.MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/incrementa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="@string/aumenta"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/decrementa"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/benvenuto" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/decrementa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/diminuisce"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button"
+        app:layout_constraintBaseline_toBaselineOf="@+id/incrementa"
         tools:layout_editor_absoluteX="234dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/benvenuto"
         android:layout_width="162dp"
         android:layout_height="41dp"
         android:layout_marginEnd="8dp"
