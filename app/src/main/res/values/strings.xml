@@ -4,4 +4,6 @@
     <string name="diminuisce">-</string>
     <string name="messaggio">Premi i pulsanti per aumentare/diminuire.</string>
     <string name="valore">Il contatore vale: </string>
+    <string name="Azzeramento">azzera</string>
+    <string name="moltiplicatore">Se selezionato, moltiplica invece di sommare</string>
 </resources>
